@@ -30,7 +30,7 @@ def main():
     html_temp = """
     """
     st.markdown(html_temp,unsafe_allow_html=True)
-    Pregnancies = st.text_input("Pregnancies","")
+    Pregnancies = st.text_input("Pregn","")
     Glucose = st.text_input("Glucose","")
     BloodPressure = st.text_input("BloodPressure","")
     SkinThickness = st.text_input("SkinThickness","")
